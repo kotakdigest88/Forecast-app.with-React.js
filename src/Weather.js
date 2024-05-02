@@ -4,8 +4,14 @@ export default function Weather (){
     <div className="App">
             <h1>Weather Checker</h1>
         <form>
+            <div className="row">
+                <div className="col-9">
           <input type="search" placeholder="Enter a location.." className="form-control"/>
-          <input type="submit" value="search" className="btn btn-primary" />
+          </div>
+          <div className="col-3">
+          <input type="submit" value="Search" className="btn btn-primary w-100" />
+          </div>
+          </div>
        </form>
        <h2>Kuala Lumpur</h2>
        <ul>
