@@ -1,10 +1,10 @@
 .Weather {
     max-width: 600px;
-    border: 1px solid rgb(65, 29, 24);
+    border: 1px solid rgb(32, 33, 36);
     border-radius: 4px;
     padding: 16px;
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(135, 135, 135);
+    
   
 }
 .Weather h1{
@@ -20,23 +20,28 @@
 }
 
 .Weather li{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 100;
-    line-height: 19px;
+    line-height: 18px;
     list-style: none;
 }
-.Weather .temperature{
-    font-weight: bold;
-    color: rgb(33, 33, 33);
-    font-size: 60px;
-    line-height: 60px;
-      
-}
+
 .Weather img{
+    background-color: red;
     display: inline-block;
-    height: 60px;
-    margin-left: 10px;
     width: 60px;
+    height: 60px;
+    margin-right: 10px;
+   
+}
+.Weather .temperature{
+    color: rgb(33, 33, 33);
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 400;
+    background-color: red;
+    
+      
 }
 .Weather .unit{
     color: rgb(33, 33, 33);
@@ -44,7 +49,7 @@
     font-weight: bold;
     position: relative;
     line-height: 1;
-    top: -20px;
+    top: -24px;
     margin-left: 5px;
 }
 
