@@ -1,0 +1,3 @@
+if (temperature > 20){
+    background-color: red;
+}
