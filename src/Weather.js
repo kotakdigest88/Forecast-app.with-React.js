@@ -17,7 +17,7 @@ function displayResponse (response){
         wind: response.data.wind.speed,
         city: response.data.city,
         date: new Date (response.data.time*1000),
-        iconUrl: response.data.condition.icon_url
+        icon:response.data.condition.icon_url
        
     });
 }
@@ -46,6 +46,7 @@ if (weatherData.ready){
                 type="search"
                 placeholder="Enter a city.."
                 className="form-control" 
+                autoFocus="on"
                 onChange={updateSearch}/>
                 </div>
                 <div className="col-3">

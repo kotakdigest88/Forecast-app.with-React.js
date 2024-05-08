@@ -26,12 +26,12 @@
     list-style: none;
 }
 
-.Weather img{
-    background-color: red;
+.Weather canvas{
     display: inline-block;
     width: 60px;
     height: 60px;
     margin-right: 10px;
+    
    
 }
 .Weather .temperature{
@@ -39,7 +39,7 @@
     font-size: 50px;
     line-height: 50px;
     font-weight: 400;
-    background-color: red;
+
     
       
 }
