@@ -13,6 +13,7 @@
     font-weight: 100px;
     margin: 20px 0 10px ;
     line-height: 29px;
+    right: 0;
 }
 .Weather ul{
     margin: 0;
@@ -30,15 +31,16 @@
     display: inline-block;
     width: 60px;
     height: 60px;
-    margin-right: 10px;
-    
    
 }
 .Weather .temperature{
     color: rgb(33, 33, 33);
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 48px;
+    line-height: 40px;
     font-weight: 400;
+    position: relative;
+    top: -5px
+ 
 
     
       
@@ -50,6 +52,6 @@
     position: relative;
     line-height: 1;
     top: -24px;
-    margin-left: 5px;
+    
 }
 
