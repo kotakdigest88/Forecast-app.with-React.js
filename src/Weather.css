@@ -1,57 +1,277 @@
+:root{
+    --primary-font-color: rgba(1, 94, 1, 0.55);
+    --secondary-font-color: rgba(7, 66, 7, 0.68);
+    --secondary-icon-color: rgba(255, 255, 255, 0.937);
+    --primary-background-color: rgb(178, 197, 148) ;
+    --1st-font:Georgia, 'Times New Roman', Times, serif;
+}
+
+
 .Weather {
     max-width: 600px;
-    border: 1px solid rgb(32, 33, 36);
+    max-height: 500px;
+    border: 1px solid var(--secondary-font-color);
     border-radius: 4px;
-    padding: 16px;
-    color: rgb(135, 135, 135);
- 
+    padding: 16px;    
+    color: var(--primary-font-color);
+    background-color:var(--primary-background-color); 
   
 }
+.Weather form{
+    border-bottom: 1px solid var(--primary-font-color);
+    padding-bottom: 10px;
+    
+}
+
 .Weather h1{
     display: block;
     font-size: 24px;
     font-weight: 100px;
     margin: 20px 0 10px ;
     line-height: 29px;
-    right: 0;
+    position: relative;
+    right: -44%;
+    top: 5px;
 }
 .Weather ul{
+    position: relative;
+    right: -30%;
+  
     margin: 0;
     padding: 0;
+   
 }
 
 .Weather li{
     font-size: 14px;
+
     font-weight: 100;
     line-height: 18px;
     list-style: none;
+    
+}
+.Weather .box-tepi{
+ 
+    background-color: var(--secondary-icon-color);
+    border-radius: 5px;
+    height: 380px;
+    width: 200px;
+    position: relative; 
+    top: -40px;
+    left: 28px;
+}
+.Weather .box-tepi li{
+    position: relative;
+    bottom: -45px;
+    
+ 
+}
+
+.Weather .box-kanan{
+    width: 200px;
+    position: relative;
+    left: -12px;
+    top: 12px;
+   
+    
+}
+.WeatherInfo .CurrentTimeDisplay{
+ position: relative;
+ top: -10px;
 }
 
 .Weather canvas{
+
     display: inline-block;
-    width: 60px;
-    height: 60px;
-   
+    position: relative;
+    top: 80px;
+    left: 40px;   
 }
 .Weather .temperature{
-    color: rgb(33, 33, 33);
-    font-size: 48px;
+    color: var(--primary-font-color);
+    font-size: 45px;
     line-height: 40px;
     font-weight: 400;
     position: relative;
-    top: -5px
- 
-
-    
+    right: -60px;
+    top: 130px;
       
 }
 .Weather .unit{
-    color: rgb(33, 33, 33);
+    color: var(--primary-font-color);
     font-size: 16px;
     font-weight: bold;
     position: relative;
-    line-height: 1;
-    top: -24px;
-    
+    line-height: 1;  
+    top: 100px;
+    right: -60px;    
 }
+.WeatherInfo .text-capitalize{
+    font-family: var(--1st font);
+    font-size: 15px;
+    font-style: italic;
+    position: relative;
+    top: -100px;
+    right: -50px;
+}
+.DisplayDay{
+    font-family: var(--1st-font);
+    font-size: 30px;
+    font-style: italic;
+    position: relative;
+    top: 30px; 
+    right: -6px;
+}
+.DisplayClock{
+    font-family: var(--1st-font);
+    font-size: 20px;
+    font-style: italic;
+    position: relative;
+    top: -5px;
+    right: 100px; 
+}
+.DetailsInfo .WindDisplay{
+ position: relative;
+ top: -18px;
+ left: 100px;
+}
+.DetailsInfo .HumidityDisplay{
+position: relative;
+left: 2px;
+}
+.WeatherForecast-day {
+
+position: relative;
+top: -273px;
+right: 55px;
+font-size: 15px;
+
+}
+
+
+.WeatherForecast-day .DayDisplay{
+    position: relative;
+    right: 45px;
+    top: -10px;
+}
+.WeatherForecast-day .WeatherForecast-tempt-MaxMin{
+    position: relative;
+    left: 15px;
+    top: -10px;
+}
+
+.WeatherForecast-day .IconDisplay{
+    position: relative;
+    left: 35px;
+    top: -75px;
+}
+
+@media(max-width: 600px){
+    .Weather .box-tepi{
+ 
+        background-color: var(--secondary-icon-color);
+        border-radius: 5px;
+        height: 250px;
+        width: 700px;
+        position: relative; 
+        top: 80px;
+        left: 0px;
+    }
+    .Weather canvas{
+
+        display: inline-block;
+        position: relative;
+        top: -160px;
+        left: 5px;  
+       
+    }
+    .Weather h1{
+        display: block;
+        font-size: 18px;
+        font-weight: 100px;
+        margin: 20px 0 10px ;
+        line-height: 29px;
+        position: relative;
+        right: -32%;
+        top: -5px;
+       
+    }
+    .DisplayDay{
+        font-family: var(--1st-font);
+        font-size: 14px;
+        font-style: italic;
+        position: relative;
+        top: -125px; 
+        right: -110px;
+    }
+    .DisplayClock{
+        font-family: var(--1st-font);
+        font-size: 14px;
+        font-style: italic;
+        position: relative;
+        top: -125px;
+        right: -140px; 
+    }
+    .WeatherInfo .text-capitalize{
+        font-family: var(--1st font);
+        font-size: 12px;
+        font-style: italic;
+        position: relative;
+        top: -225px;
+        right: -110px;
+    }.WeatherForecast-day .DayDisplay{
+        position: relative;
+        right: 105px;
+        top: 60px;
+    }
+    .WeatherForecast-day .WeatherForecast-tempt-MaxMin{
+        position: relative;
+        left: -25px;
+        top: 58px;
+    }
+    
+    .WeatherForecast-day .IconDisplay{
+        position: relative;
+        right: 95px;
+        top: 230px;
+    }
+    .DetailsInfo .WindDisplay{
+        position: relative;
+        top: -276px;
+        left: 160px;
+        font-size: 13px;
+       }
+       .DetailsInfo .HumidityDisplay{
+       position: relative;
+       left: 70px;
+       top: -258px;
+       font-size: 13px;
+       }
+       .WeatherFeel{
+        position: relative;
+        left: 70px;
+        top: -258px;
+        font-size: 13px;
+       }
+       .Weather .temperature{
+        color: var(--primary-font-color);
+        font-size: 25px;
+     
+        font-weight: 400;
+        position: relative;
+        right: -10px;
+        top: -280px;
+          
+    }
+    .Weather .unit{
+        color: var(--primary-font-color);
+        font-size: 10px;
+        font-weight: bold;
+        position: relative;
+        line-height: 1;  
+        right: -10px;
+        top: -290px;   
+    }
+}
+
 

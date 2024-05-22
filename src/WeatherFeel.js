@@ -15,17 +15,10 @@ export default function WeatherFeel(props){
     if (unit==="celcius"){
         return (
             <div className="WeatherFeel">
+                Temperature feels like {""}
                   <span className="temperatureFeel">{Math.round(props.temptFeel)}</span>
-                  <span className="unitFeel">°C | <a href="/" onClick={showFahrenheit} >°F</a> </span>  
-            </div>
-        );
-    }else{
-        let fahrenheit = (props.temptFeel)* 9/5 + 32;
-        return(
-            <div className="WeatherFeel">
-        <span className="temperatureFeel">{Math.round(fahrenheit)}</span>
-        <span className="unitFeel">°C | <a href="/" onClick={showCelcius} >°F</a> </span>  
-  </div> 
+                  <span className="unitFeel">°C </span>
+                  </div>
         );
         
     }
