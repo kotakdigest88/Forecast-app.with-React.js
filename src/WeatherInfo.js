@@ -3,7 +3,7 @@ import FormattedDate from "./FormattedDate";
 import WeatherIcon from "./WeatherIcon";
 import WeatherUnit from "./WeatherUnit";
 import WeatherFeel from "./WeatherFeel";
-import "./WeatherInfo.css";
+
 
 
 export default function WeatherInfo (props){
