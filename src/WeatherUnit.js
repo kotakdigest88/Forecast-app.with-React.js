@@ -20,7 +20,7 @@ export default function WeatherUnit(props){
         return (
          <div className="WeatherTemperature">
             <span className="temperature">{Math.round(props.temptUnit)}</span>
-            <span className="unit">°C | <a href="/" onClick={showFahrenheit} >°F</a> </span>   
+            <span className="unit">°C | <a href="/" onClick={showFahrenheit} className="ColorLinkF">°F</a> </span>   
            
         </div>
        
@@ -32,7 +32,7 @@ let fahrenheit = (props.temptUnit)* 9/5 + 32;
         return (
             <div className="WeatherTemperature">
             <span className="temperature">{Math.round(fahrenheit)}</span>
-            <span className="unit"> <a href="/" onClick={showCelcius} >°C </a> | °F </span>
+            <span className="unit"> <a href="/" onClick={showCelcius} className="ColorLinkCelcius" >°C </a> | °F </span>
 
         </div>
         )

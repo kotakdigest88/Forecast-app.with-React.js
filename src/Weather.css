@@ -165,6 +165,12 @@ font-size: 15px;
     left: 35px;
     top: -75px;
 }
+.ColorLinkCelcius{
+    color: var(--secondary-icon-color);
+}
+.ColorLinkF{
+    color: var(--secondary-icon-color);
+}
 
 @media(max-width: 600px){
     .Weather .box-tepi{
@@ -192,8 +198,9 @@ font-size: 15px;
         margin: 20px 0 10px ;
         line-height: 29px;
         position: relative;
-        right: -32%;
+        right: -31%;
         top: -5px;
+    
        
     }
     .DisplayDay{
