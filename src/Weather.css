@@ -110,9 +110,9 @@
     font-family: var(--1st font);
     font-size: 15px;
     font-style: italic;
-    position: relative;
+    position: relative;   
     top: -100px;
-    right: -50px;
+    right: -16px;
 }
 .DisplayDay{
     font-family: var(--1st-font);
@@ -120,7 +120,7 @@
     font-style: italic;
     position: relative;
     top: 30px; 
-    right: -6px;
+    right: -18px;
 }
 .DisplayClock{
     font-family: var(--1st-font);
@@ -128,7 +128,7 @@
     font-style: italic;
     position: relative;
     top: -5px;
-    right: 100px; 
+    right: 68px; 
 }
 .DetailsInfo .WindDisplay{
  position: relative;
