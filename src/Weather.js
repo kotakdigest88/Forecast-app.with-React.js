@@ -44,7 +44,7 @@ if (weatherData.ready){
         <div className="Weather">
             <form onSubmit={handleSubmit}>
                 <div className="row mt-3">
-                    <div className="col-9 ">
+                    <div className="col-9">
                 <input
                 type="search"
                 placeholder="Enter a city.."
