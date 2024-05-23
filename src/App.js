@@ -7,13 +7,10 @@ function App() {
   <div className="App">
     <div className="container">
      <Weather defaultcity="Melaka" />
-     <footer>Coded by {""}
-       <a href="https://github.com/kotakdigest88" target="_blank" rel="noreferrer">nsalina</a>{""}
-     and it is{""}
-      <a href="https://github.com/kotakdigest88/shecodereact" target="_blank" rel="noreferrer">
-      {""}  open-sources
-        </a> 
-      {""}  on gitHub</footer>
+     <footer>Check the {""}
+       <a href="https://github.com/kotakdigest88/shecodereact" target="_blank" rel="noreferrer">open-sources</a>
+     {""}on github, coded by nsalina
+      </footer>
   </div> 
   </div>
   );
