@@ -110,7 +110,7 @@
 .WeatherInfo .text-capitalize{
     font-family: var(--1st font);
     font-size: 15px;
-    font-style: italic;
+  font-weight: bold;
     position: relative;   
     top: -100px;
     right: -16px;
@@ -218,26 +218,25 @@ font-size: 15px;
     }
     .DisplayDay{
         font-family: var(--1st-font);
-        font-size: 14px;
-        font-style: italic;
+        font-size: 14px;        
         position: relative;
         top: -125px; 
         right: -110px;
     }
     .DisplayClock{
         font-family: var(--1st-font);
-        font-size: 14px;
-        font-style: italic;
+        font-size: 14px;       
         position: relative;
         top: -125px;
         right: -140px; 
     }
+  
     .WeatherInfo .text-capitalize{
         font-family: var(--1st font);
         font-size: 12px;
-        font-style: italic;
+        font-weight: 100;
         position: relative;
-        top: -225px;
+        top: -210px;
         right: -110px;
     }.WeatherForecast-day .DayDisplay{
         position: relative;
@@ -291,6 +290,11 @@ font-size: 15px;
         line-height: 1;  
         right: -10px;
         top: -290px;   
+    }
+    .ForecastWeek{
+        position: relative;
+        top: -3px;
+      
     }
 }
 

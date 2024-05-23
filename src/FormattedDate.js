@@ -13,6 +13,7 @@ export default function FormattedDate (props){
         minutes = `0${minutes}`;
     }
    
+   
     return <div>
         <span className="DisplayDay">{day}</span>
         <span className="DisplayClock">{hours}:{minutes}</span>

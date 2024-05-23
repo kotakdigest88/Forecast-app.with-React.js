@@ -24,8 +24,8 @@ export default function WeatherInfo (props){
         <div className="col-4 box-kanan">
         <ul className="DetailsInfo">
             <li><WeatherFeel temptFeel={props.data.temperatureFeel} /></li>       
-            <li className="HumidityDisplay">Humidity:{""}{props.data.humidity}% </li>
-            <li className="WindDisplay">Wind:{""}{props.data.wind}km/h </li>
+            <li className="HumidityDisplay">Humidity:{""}{props.data.humidity}{""}% </li>
+            <li className="WindDisplay">Wind:{""}{props.data.wind}{""}km/h </li>
         </ul>
     </div>
 </div>
